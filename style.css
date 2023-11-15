@@ -1,0 +1,941 @@
+ * {
+     margin: 0px;
+     color: white;
+
+ }
+
+ nav {
+     display: flex;
+     border: solid 1px grey;
+     background: rgb(4, 4, 52);
+     width: auto;
+     height: 80px;
+
+
+ }
+
+ .bar {
+     font-size: 30px;
+     font-weight: bold;
+     padding: 20px;
+     padding-left: 30px;
+     text-align: center;
+     cursor: pointer;
+
+ }
+
+ .bar:hover{
+    color: yellow;
+ }
+
+ .enc{
+     color: white;
+     text-align: center !important;
+     align-items: center;
+     font-size: 20px;
+ }
+
+ .menu {
+     transition: all .5s;
+     border: solid 1px red;
+     width: 300px;
+     position: fixed;
+     height: 3000000000px;
+     margin-left: -5000px;
+     background: rgb(48, 48, 48);
+ }
+
+ .menu .li {
+     text-align: center;
+     border: solid 1px black;
+     font-size: 25px;
+
+ }
+
+ .menu .li a {
+     color: white;
+     text-decoration: none;
+     text-shadow: 2px 3px black;
+     display: inline-block;
+     padding: 30px;
+     width: 230px;
+
+ }
+
+ .menu .li a:hover {
+     color: yellow;
+ }
+
+
+ .men {
+     display: none;
+ }
+
+ .remove {
+     width: 5000px;
+     height: 3000000000px;
+     margin-left: 300000px;
+     position: fixed;
+ }
+
+ 
+ .his {
+     font-family: Arial, Helvetica, sans-serif;
+     height:600px;
+     background: rgb(5, 5, 51);
+     text-align: center;
+ }
+
+ .hu{
+    display:block;
+    background: rgb(5, 5, 27);
+    text-align: center;
+ }
+
+ .hi{
+    display: none;
+ }
+
+ /*big screen*/
+ @media(min-width: 550px) {
+     
+    .insidee{
+        display: flex;
+        text-align: center;
+    }
+
+    .insidee img{
+    width: 400px;
+    height: 400px;
+    padding: 8px;
+    }
+
+   /* #coolar{
+    display: flex;
+    }*/
+        .inside{
+                display: block !important;
+                text-align: center;
+            }
+            .inside img{
+                margin: 10px;
+            }
+
+            .insider{
+                display: flex;
+                text-align: center;
+            }
+
+
+     body {
+         background: rgb(9, 6, 24);
+     }
+
+                 .word,
+                 .lost,
+                 #ball {
+                     display: none;
+                 }
+
+                 .lead{
+                    margin: auto;
+                    color: green;
+                    font-size: 25px;
+                 }
+                 .lost1{
+                    margin-left: 150px;
+                    width: 800px;
+                    height: 500px;
+                    
+                 }
+
+                 .lost1:hover{
+                box-shadow: 0px 0px 5px yellow,
+                        0px 0px 30px white,
+                        0px 0px 30px white,
+                        0px 0px 30px white,
+                        0px 0px 30px white;
+                 }
+                 .word1{
+                    text-align: center;
+                 }
+
+
+           
+             .btc,
+             .ether,
+             .dog {
+                     transition: all 1s;
+                     position: fixed;
+                                 }
+
+     .men {
+         display: flex;
+         width: auto;
+     }
+
+     .men .li {
+         padding: 20px;
+         padding-left: 80px;
+     }
+
+     .men .li a {
+         color: yellow;
+         font-size: 25px;
+         text-decoration: none;
+         text-shadow: 2px 3px black;
+     }
+
+     .men .li a:hover {
+         color: rgb(23, 222, 23);
+         font-size: 23px;
+     }
+
+     .menu {
+         display: none;
+     }
+
+     .enc {
+         padding-left: 20px;
+     }
+
+     .bar {
+         display: none;
+     }
+
+     .rocket {
+         display: none;
+         margin-left: -3000000px !important;
+     }
+
+
+     .holder {
+         height: 280px;
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         grid-gap: 10px;
+     }
+
+     .holder .gmail a i {
+         font-size: 70px;
+
+     }
+
+     .holder .twitter a i {
+         font-size: 70px;
+     }
+
+     .holder .telegram a i {
+         font-size: 70px;
+     }
+
+     .holder .watsap a i {
+         font-size: 70px;
+     }
+
+     .holder .telegram,
+     .twitter,
+     .gmail,
+     .watsap {
+        
+         box-shadow: none !important;
+     }
+
+     .holder .watsap a i:hover {
+         font-size: 60px;
+
+     }
+
+     .holder .telegram a i:hover {
+         font-size: 60px;
+
+     }
+
+     .holder .gmail a i:hover {
+         font-size: 60px;
+
+     }
+
+     .holder .twitter a i:hover {
+         font-size: 60px;
+
+     }
+
+     #la5 a, #la4 a, #la3 a, #la2 a, #la1 a{
+        animation-name: pulser;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+     }
+
+     @keyframes pulser {
+        30%{color: rgb(236, 236, 4);}
+        50%{color: rgb(182, 182, 4);}
+        70%{color: rgb(145, 145, 5);}
+        90%{color: rgb(86, 86, 1);}
+     }
+
+
+     .hu{
+        display: none;
+     }
+
+     .hi{
+        display: block !important;
+        background: rgb(5, 5, 27);
+        text-align: center;
+   }
+
+   .his {
+       background: rgb(5, 5, 27);
+       text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+   #doge,
+   #ethereum,
+   #bitcoin {
+       font-size: 20px !important;
+       margin: auto;
+   }
+   
+ }
+
+
+
+ body {
+     background: black;
+ }
+
+ .his {
+     height:auto;
+ }
+
+ #hiso{
+    height: auto;
+    text-align: center;
+ }
+
+ #hisi p{
+    font-size: 30px;
+ }
+
+ #hisi{
+    background: grey;
+    height: 600px;
+ }
+
+ .her {
+     border: none;
+     border-top: 2px solid red;
+ }
+
+ .rocket {
+     position: fixed;
+     display: none;
+     margin-left: 335px;
+     margin-top: 200px;
+     font-size: 30px;
+     transition: all .2s;
+     animation-name: blastoff;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+ }
+
+ @keyframes blastoff {
+     0% {}
+
+     20% {
+         font-size: 30px;
+         margin-top: 180px;
+         margin-left: 340px;
+     }
+
+     40% {
+         font-size: 20px;
+         margin-top: 160px;
+         margin-left: 350px;
+     }
+
+     70% {
+         font-size: 15px;
+         margin-top: 140px;
+        margin-left: 360px;
+     }
+     80%{
+        margin-top: 120px;
+        font-size: 13px;
+        margin-left: 380px;
+     }
+
+     83%{
+        margin-top: 100px;
+        font-size: 12px;
+        margin-left: 390px;
+     }
+
+     86%{
+        margin-top: 80px;
+        font-size: 11px;
+        margin-left: 400px;
+     }
+
+
+
+
+ }
+
+ #pic {
+     background: url("components/fact.jpg");
+     height: 400px;
+     width: 360px;
+     text-align: center !important;
+     justify-content: center;
+     margin: auto;
+ }
+
+ #pict {
+     background: url("components/forest.jpg");
+     height: 400px;
+     width: auto;
+     text-align: center !important;
+     justify-content: center;
+ }
+
+ .hey {
+     border: solid 2px red;
+     height: 50px;
+     width: 300px;
+     color: white;
+     margin: auto;
+     text-align: center;
+     justify-content: baseline;
+     font-weight: bold;
+     font-size: 20px;
+     border-radius: 30px;
+     animation-name: resize;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+ }
+
+ .hey:hover{
+    text-shadow: 2px 3px 2px black;
+ }
+
+ @keyframes resize{
+    20%{width: 320px; }
+    40%{height: 40px; }
+    60%{width: 300px;}
+    80%{height: 50px; }
+    90%{border: dotted 2px red;}
+    100%{cursor: crosshair;}
+ }
+
+ .bottom {
+     width: auto;
+     height: 380px;
+     text-align: center;
+     background-color: rgb(21, 20, 22);
+ }
+
+ .watsap {
+     text-align: center;
+     text-decoration: none;
+     height: 70px;
+     width: auto;
+     box-shadow: 0px 0px 5px red,
+         0px 0px 5px white,
+         0px 0px 5px white,
+         0px 0px 5px white,
+         0px 0px 5px white;
+
+ }
+
+ .gmail {
+     text-align: center;
+
+     height: 70px;
+     width: auto;
+     text-align: center;
+     box-shadow: 0px 0px 5px red,
+         0px 0px 5px white,
+         0px 0px 5px white,
+         0px 0px 5px white,
+         0px 0px 5px white;
+
+ }
+
+ .gmail a i {
+     display: block;
+     color: yellow;
+     text-align: center;
+     font-size: 30px;
+    text-shadow: 0px 0px 5px white,
+            0px 0px 5px black,
+            0px 0px 5px black,
+            0px 0px 5px black,
+            0px 0px 5px black;
+
+ }
+
+ .gmail a {
+     color: white;
+     background: black;
+     text-align: center;
+     text-decoration: none;
+
+ }
+
+
+ .watsap a i {
+     display: block;
+     font-size: 30px;
+     color: rgb(23, 222, 23);
+     text-align: center;
+     text-align: center;
+    text-shadow: 0px 0px 5px white,
+            0px 0px 5px black,
+            0px 0px 5px black,
+            0px 0px 5px black,
+            0px 0px 5px black;
+
+ }
+
+ .watsap a {
+     text-decoration: none;
+     text-align: center;
+ }
+
+
+ .telegram {
+     text-align:center;
+     height: 70px;
+     box-shadow: 0px 0px 5px red,
+         0px 0px 5px white,
+         0px 0px 5px white,
+         0px 0px 5px white,
+         0px 0px 5px white;
+
+ }
+
+ .telegram a i {
+     display: block;
+     color: blue;
+     font-size: 30px;
+     text-align: center;
+    text-shadow: 0px 0px 5px white,
+            0px 0px 5px black,
+            0px 0px 5px black,
+            0px 0px 5px black,
+            0px 0px 5px black;
+
+ }
+
+ .telegram a {
+     text-decoration: none;
+     text-align: center;
+ }
+
+ .twitter {
+     height: 70px;
+     box-shadow: 0px 0px 5px red,
+         0px 0px 5px white,
+         0px 0px 5px white,
+         0px 0px 5px white,
+         0px 0px 5px white;
+
+ }
+
+ .twitter a i {
+     display: block;
+     color: blue;
+     font-size: 30px;
+     text-align: center;
+    text-shadow: 0px 0px 5px white,
+            0px 0px 5px black,
+            0px 0px 5px black,
+            0px 0px 5px black,
+            0px 0px 5px black;
+
+ }
+
+ .twitter a {
+     text-decoration: none;
+     text-align: center;
+     margin: auto;
+ }
+
+ .cop {
+     text-align: center;
+ }
+
+
+ .btci, .dogi, .etheri{
+     border: double 3px yellow;
+     text-align: center !important;
+     background: purple;
+     margin: auto;
+     display: flex;
+     width: 355px;
+     height: auto;
+
+ }
+
+ 
+ 
+ button {
+     color: blue;
+     padding: 5px;
+ }
+
+ .adress {
+     background: green;
+     border: solid 1px white;
+     color: white;
+     padding-right: 10px;
+     text-align: center;
+ }
+
+.contact{
+    animation-name: pulse;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse{
+    0%{}
+    30%{color: grey;}
+    50%{color: darkgrey;}
+    70%{color: yellow;}
+    100%{color: yellowgreen;}
+}
+
+ 
+ table{
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+ }
+
+ table,tr,td{
+    border: solid 1px white;
+ }
+
+td{
+    padding: 10px;;
+}
+
+th{
+    text-align: center !important;
+    margin: auto !important;
+}
+
+.more a{
+    color: rgb(245, 233, 16);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.btce, .ethere, .dogee{
+    display:block;
+}
+
+#doge,
+#ethereum,
+#bitcoin {
+    width: 280px;
+    font-size: 10px;
+}
+
+.cle{
+    text-align: center;
+    height: fit-content;
+    margin: auto;
+    background: white !important;
+}
+
+.cha p{
+   margin: auto; 
+   font-size: 20px;
+   color: black;
+   text-shadow: 2px 3px white;
+}
+
+.cha{
+height: 400px;
+background: url(components/worker.jpg);
+background-repeat: no-repeat;
+background-position: center;
+box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10), 0 4px 6px -4px rgb(0 0 0 / 10);
+}
+
+
+.goof{
+    background: white;
+    width: auto;
+    
+}
+
+img{
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10), 0 4px 6px -4px rgb(0 0 0 / 10);
+}
+
+.inside{
+    display: flex;
+    overflow-x:scroll;
+}
+
+.inside img{
+   height: 400px;
+   width:1000px ;
+   padding-left: 8px;;
+}
+
+
+/*Small screen*/
+@media(max-width: 550px) {
+    .insidee{
+        display: flex;
+        overflow-x: scroll;
+    }
+
+.insidee img {
+        height: 500px;
+        width: 350px;
+        padding-left: 20px;}
+
+        .inside{
+            display: block !important;
+            overflow-x: hidden;
+        }
+        .insider{
+            display: flex;
+            padding: 8px;
+            overflow-x: scroll;
+            animation-name: scrolle;
+                animation-duration: 20s;
+                animation-iteration-count: 3;
+        }
+        .insider img{
+            padding: 5px;
+            width:350px;
+            height: 500px;
+        }
+        
+                @keyframes scrolle {
+                    5% {
+                        margin-left: -20px;
+                    }
+        
+                    10% {
+                        margin-left: -50px;
+                    }
+        
+                    35% {
+                        margin-left: -370px;
+                    }
+        
+                  
+                    85% {
+                        margin-left: -450px;
+                    }
+        
+                    90% {
+                        margin-left: -200px;
+                    }
+                }
+
+
+        .insider2{
+            display: flex;
+            overflow-x:scroll;
+            animation-name: scrolled;
+                animation-duration: 20s;
+                animation-iteration-count: 3;
+        }
+        .insider2 img{
+            padding: 5px;
+            width: 350px;
+            height: 500px;
+        }
+
+                @keyframes scrolled {
+                    5% {
+                        margin-left: -20px;
+                    }
+        
+                    10% {
+                        margin-left: -50px;
+                    }
+        
+                    35% {
+                        margin-left: -370px;
+                    }
+        
+                    60% {
+                        margin-left: -730px;
+                    }
+        
+                    75% {
+                        margin-left: -600px;
+                    }
+        
+                    85% {
+                        margin-left: -450px;
+                    }
+        
+                    90% {
+                        margin-left: -200px;
+                    }
+                }
+
+.cot {
+        background: rgb(223, 213, 213);
+        width: 300px !important;
+        height: 400px;
+        margin: auto;
+        text-align: center;
+        box-shadow: 0px 0px 5px red,
+                0px 0px 20px white,
+                0px 0px 20px white,
+                0px 0px 20px white,
+                0px 0px 20px white;
+                }
+
+        .insidee {
+            width:fit-content;
+            transition: all .5s;
+            margin: auto;
+            display: flex;
+            overflow-x: scroll;
+            animation-name: scroller;
+            animation-duration: 20s;
+            animation-iteration-count: 2;
+
+        }
+
+        @keyframes scroller{
+            5%{margin-left: -20px;}
+            10% {margin-left: -50px;}
+            35%{margin-left: -370px;}
+            60%{margin-left: -730px;}
+
+            75%{margin-left: -600px;}
+            85%{margin-left: -450px;}
+            90%{margin-left: -200px;}
+        }
+
+
+
+
+.goof{
+    transition: all .5s;
+    overflow: scroll;
+    width: 340px;
+    margin: auto;
+}
+
+#cooler{
+ width: 360px;
+ background: white;  
+ margin: auto; 
+}
+
+.he{
+    font-size: 17px;
+}
+
+#ball{
+    color: green;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: fixed;
+    text-align: center;
+    margin-top: -100px !important;
+    font-size: 40px;
+    transition: all .5s;
+    animation-name: bulge;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+@keyframes bulge{
+    20%{font-size: 35px;}
+    40%{font-size: 50px;}
+    60%{font-size: 40px;}
+}
+
+.lost{
+    position: fixed;
+    width: 355px;
+    height: 400px;
+    display: none;
+    margin-top: 50px !important;
+}
+
+.word{
+    display: none;
+    position: fixed;
+    background: white;
+    color: black;
+    margin-top: -75px;
+    width: 355px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10), 0 4px 6px -4px rgb(0 0 0 / 10);
+}
+
+.lost1,.word1{
+    display: none;
+}
+
+
+.lead {
+    margin: auto;
+    color: green;
+    font-size: 25px;
+}
+}
+
+
+.he{
+    color: white;
+    font-weight: bold;
+    font-family:monospace;
+    font-size: 25px;
+    cursor: cell;
+}
+
+.he:hover{
+    text-shadow: 2px 3px 2px black;
+}
+
+
+.cot{
+    background: rgb(223, 213, 213);
+    width: 360px;
+    height: 400px;
+    margin: auto;
+    text-align:center ;
+    
+}
+
+.cot:hover{
+box-shadow: 0px 0px 5px red,
+        0px 0px 20px white,
+        0px 0px 20px white,
+        0px 0px 20px white,
+        0px 0px 20px white;
+}
+.cota{
+    color: black;
+}
+
+i{
+    margin-top: 10px;
+}
+
+
+
+
