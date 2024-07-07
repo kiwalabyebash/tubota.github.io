@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My perfect template</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="smallstyles.css">
+
+
+      <!--for offline bootstrap -->
+    <link href="C:/Users/LUBCOM/Desktop/Bootstrap-site/css/bootstrap.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-md p2 shadow">
+    <ul class="navbar-nav p2 shadow">
+        <li class="p2 shadow"><a class="nav-link" href="#">Home</a></li>
+        <li class="p2 shadow"><a class="nav-link" href="#">About</a></li>
+        <li class="p2 shadow"><a class="nav-link" href="#">Store</a></li>
+        <li class="p2 shadow"><a class="nav-link" href="#">History</a></li>
+        <li class="p2 shadow"><a class="nav-link" href="#">Update</a></li>
+        <li class="p2 shadow"><a class="nav-link" href="#">prompting</a></li>
+
+    </ul>
+</nav>
+<br><br>
+<button type="button" class="btn btn-danger p2 shadow">purchase</button>
+
+
+      
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        $('document').ready(function(){
+            $('body').hover(function(){
+                $('button').animate({fontSize:'20px'}).css({backgroundColor: 'green'})
+            })
+
+            $('body').mouseout(function(){
+                $('button').animate({ fontSize: '10px' }).css({ backgroundColor: 'brown' })
+            })
+            
+        })
+    </script>
+</body>
+</html>
