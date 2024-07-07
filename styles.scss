@@ -1,0 +1,26 @@
+$border: solid 2px red;
+.no{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+// .navbar-nav{
+// border: $border;
+// }
+
+.nav-link{
+    width: 100%;
+    height: 10%;
+    border: $border;
+    color: yellow !important;
+}
+
+.nav-link:hover{
+    text-shadow: 2px 3px grey;
+}
+
+.navbar-nav{
+    @extend .no;
+}
